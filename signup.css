@@ -1,0 +1,133 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url("b1.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.sign-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    border-radius: 25px;
+    background: rgba(255, 255, 255, 0.797);
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 9px );
+    -webkit-backdrop-filter: blur( 9px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+.conta{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
+    padding-left: 40px;
+}
+
+.liner > i{
+    padding-right: 10px;
+}
+
+.liner{
+    font-size: 5px;
+    padding-left: 40px;
+}
+
+.heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+    width: 550px;
+    height: 100px;
+    padding-left: 40px;
+    font-size: 35px;
+}
+
+.log-input{
+    margin-top: 10px;
+    width: 75%;
+    border-radius: 15px;
+    outline: none;
+    background-color: rgba(13, 12, 12, 0.523);
+    color: rgb(0, 0, 0);
+    border-style: none;
+    padding: 5px 40px;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 3px;
+
+}
+
+.log-input::placeholder{
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 3px;
+}
+
+.btn-conta{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 200px;
+    width: 550px;
+}
+
+.btn-wrap{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.log-submit-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 40px;
+    background-color: #fbffa1;
+    padding: 10px 20px;
+    font-size: 24px;
+    font-weight: 600;
+    letter-spacing: 3px;
+    text-transform: capitalize;
+    border-radius: 3px;
+    margin: 10px 0;
+    box-shadow: 5px 5px 9px black;
+    transition: .5s all;
+}
+
+.log-submit-btn:hover{
+    background-color: #d6dc70;
+    cursor: pointer;
+}
+
+.val{
+    margin:  20px  0 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tagline-validate-success , .tagline-validate-unsuccess , .tagline-validate-empty{
+    position: absolute;
+    visibility: hidden;
+}

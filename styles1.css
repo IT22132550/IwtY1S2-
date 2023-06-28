@@ -1,0 +1,119 @@
+
+body{
+  background-image: url(vecteezy_vector-vintage-fast-food-seamless-pattern-hand-drawn_14469007 (1).jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+
+
+ul.menu{
+  list-style-type: none;
+  background-color: rgb(148, 107, 55);
+  width: 100%;
+  margin: auto;
+  padding: auto;
+  overflow: hidden;
+  position: fixed;
+  position: relative;
+}
+
+li.menu{
+  float: left;
+  
+}
+
+li a  {
+  
+  display: block;
+  color: #ffffff;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;   
+}
+  
+  li.menu a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  
+  li.menu a:active {
+    background-color: #000000;
+    color: white;
+  }
+
+  .log .button1 {
+    border-radius: 5px;
+    background-color: bisque;
+    float: right;
+    padding: 6px;
+    border: none;
+    margin-top: 8px;
+    margin-right: 16px;
+    font-size: 17px;
+  }
+
+  .log button:hover {
+    background: #070707;
+    color: #ddd;
+  }
+
+   * {
+    box-sizing: border-box;
+  }
+
+  form.example input[type=text] {
+    padding:6px;
+    font-size: 17px;
+    border: 1px solid grey;
+    float: right;
+    width: 80%;
+    background: #f1f1f1;
+    margin-top: 8px;
+    border-radius: 5px;
+    margin-bottom: 8px;
+  }
+  
+  /*search button*/
+  form.example button {
+    float: right;
+    border-radius: 5px;
+    width: 20%;
+    padding: 4px;
+    background: #ffffff;
+    color: rgb(0, 0, 0);
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none;
+    cursor: pointer;
+    margin-top: 8px;
+    margin-bottom: 8px;
+  }
+
+  form.example button:hover {
+    background: #000000;
+    color: #ddd;
+  }
+
+  form.example::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+
+  .box1{
+    background-color: rgb(213, 213, 213);
+    padding: 80px 100px 200px 100px;
+    border: 0px  solid white;
+    margin: 10px 10px 10px 10px;
+	opacity:0.75;
+  }
+
+  
+
+
+  
